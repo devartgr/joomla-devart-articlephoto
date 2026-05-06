@@ -4,6 +4,42 @@
     <changelog>
         <element>com_devartarticlephoto</element>
         <type>component</type>
+        <version>1.0.2</version>
+
+        <addition>
+            <item>Added live filename prefix sanitization</item>
+            <item>Added inline validation messages for invalid filename characters</item>
+            <item>Added automatic lowercase conversion for filename prefixes</item>
+            <item>Added automatic space-to-hyphen conversion for filename prefixes</item>
+        </addition>
+
+        <change>
+            <item>Non-latin characters are now automatically removed from filename prefixes</item>
+            <item>Improved editorial filename workflow consistency</item>
+            <item>Improved validation workflow without using problematic HTML pattern validation</item>
+        </change>
+
+        <improvement>
+            <item>Added declare(strict_types=1) support across PHP files</item>
+            <item>Improved PHP 8.4 compatibility and type safety</item>
+            <item>Improved Joomla 6 stability and administrator behavior</item>
+        </improvement>
+
+        <fix>
+            <item>Fixed Auto Preview conflicts caused by HTML pattern validation</item>
+            <item>Fixed preview workflow interruptions caused by browser validation behavior</item>
+        </fix>
+
+        <note>
+            <item>This release focuses on stability, validation and PHP 8.4 compatibility</item>
+            <item>Recommended update for all users of version 1.0.0 and 1.0.1</item>
+        </note>
+    </changelog>
+
+
+    <changelog>
+        <element>com_devartarticlephoto</element>
+        <type>component</type>
         <version>1.0.1</version>
 
         <fix>
