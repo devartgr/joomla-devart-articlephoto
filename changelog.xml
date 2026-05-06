@@ -1,1 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <element name="DevArt Article Photo" type="component" client="administrator">
+        
+        <version number="1.0.0" date="2026-05-06">
+            <note><![CDATA[
+                <h3>Initial Public Release</h3>
 
+                <ul>
+                    <li>Generate article-ready JPG images from JPG, PNG and WEBP uploads</li>
+                    <li>Per-image output size selection (1200×800 and 1620×1080)</li>
+                    <li>Crop position and zoom controls</li>
+                    <li>Auto Preview without full page refresh</li>
+                    <li>Optional logo overlay</li>
+                    <li>Optional watermark overlay</li>
+                    <li>Save generated images under /images/YYYY/MM/</li>
+                    <li>Optimized JPG compression for lightweight article images</li>
+                    <li>Responsive administrator interface</li>
+                    <li>Joomla ACL permissions support</li>
+                    <li>Temporary preview cleanup system</li>
+                    <li>Joomla Update Server support</li>
+                    <li>GPL compatible release</li>
+                </ul>
+            ]]></note>
+        </version>
+
+    </element>
+</changelog>
