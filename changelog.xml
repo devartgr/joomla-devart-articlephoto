@@ -16,14 +16,11 @@
         <change>
             <item>Non-latin characters are now automatically removed from filename prefixes</item>
             <item>Improved editorial filename workflow consistency</item>
-            <item>Improved validation workflow without using problematic HTML pattern validation</item>
-        </change>
-
-        <improvement>
+            <item>Improved validation workflow without using HTML pattern validation</item>
             <item>Added declare(strict_types=1) support across PHP files</item>
             <item>Improved PHP 8.4 compatibility and type safety</item>
             <item>Improved Joomla 6 stability and administrator behavior</item>
-        </improvement>
+        </change>
 
         <fix>
             <item>Fixed Auto Preview conflicts caused by HTML pattern validation</item>
@@ -35,7 +32,6 @@
             <item>Recommended update for all users of version 1.0.0 and 1.0.1</item>
         </note>
     </changelog>
-
 
     <changelog>
         <element>com_devartarticlephoto</element>
@@ -53,19 +49,15 @@
             <item>Improved AJAX preview workflow</item>
             <item>Improved preview regeneration behavior</item>
             <item>Improved New Photo usability for editorial workflows</item>
-        </change>
-
-        <improvement>
             <item>Improved Joomla 6 administrator interface behavior</item>
             <item>Improved stability of Auto Preview and manual preview generation</item>
-        </improvement>
+        </change>
 
         <note>
             <item>This is a stability and usability update for the first public release</item>
             <item>Recommended update for all users of version 1.0.0</item>
         </note>
     </changelog>
-
 
     <changelog>
         <element>com_devartarticlephoto</element>
