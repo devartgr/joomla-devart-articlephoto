@@ -1,40 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelog>
-    <element name="DevArt Article Photo" type="component" client="administrator">
-        <license>GNU General Public License version 3 or later</license>
+<changelogs>
 
-        <version number="1.0.1" date="2026-05-06">
-            <note><![CDATA[
-                <h3>Stability and Usability Update</h3>
-                <ul>
-                    <li>Fixed Auto Preview not triggering correctly after selecting an image</li>
-                    <li>Fixed Generate Preview causing a full page refresh and clearing the selected file input</li>
-                    <li>Fixed filename prefix validation JavaScript error</li>
-                    <li>Improved AJAX preview workflow</li>
-                    <li>Improved preview regeneration behavior</li>
-                    <li>Improved Joomla 6 administrator usability</li>
-                </ul>
-            ]]></note>
-        </version>
+    <changelog>
+        <element>com_devartarticlephoto</element>
+        <type>component</type>
+        <version>1.0.1</version>
 
-        <version number="1.0.0" date="2026-05-06">
-            <note><![CDATA[
-                <h3>Initial Public Release</h3>
-                <ul>
-                    <li>Generate article-ready JPG images from JPG, PNG and WEBP uploads</li>
-                    <li>Per-image output size selection (1200×800 and 1620×1080)</li>
-                    <li>Crop position and zoom controls</li>
-                    <li>Auto Preview without full page refresh</li>
-                    <li>Optional logo overlay</li>
-                    <li>Optional watermark overlay</li>
-                    <li>Save generated images under /images/YYYY/MM/</li>
-                    <li>Optimized JPG compression for lightweight article images</li>
-                    <li>Responsive administrator interface</li>
-                    <li>Joomla ACL permissions support</li>
-                    <li>Temporary preview cleanup system</li>
-                    <li>Joomla Update Server support</li>
-                </ul>
-            ]]></note>
-        </version>
-    </element>
-</changelog>
+        <fix>
+            <item>Fixed Auto Preview not triggering correctly after selecting an image</item>
+            <item>Fixed Generate Preview causing a full page refresh</item>
+            <item>Fixed selected image file being cleared after preview generation</item>
+            <item>Fixed filename prefix validation JavaScript error</item>
+        </fix>
+
+        <change>
+            <item>Improved AJAX preview workflow</item>
+            <item>Improved preview regeneration behavior</item>
+            <item>Improved New Photo usability for editorial workflows</item>
+        </change>
+
+        <improvement>
+            <item>Improved Joomla 6 administrator interface behavior</item>
+            <item>Improved stability of Auto Preview and manual preview generation</item>
+        </improvement>
+
+        <note>
+            <item>This is a stability and usability update for the first public release</item>
+            <item>Recommended update for all users of version 1.0.0</item>
+        </note>
+    </changelog>
+
+
+    <changelog>
+        <element>com_devartarticlephoto</element>
+        <type>component</type>
+        <version>1.0.0</version>
+
+        <addition>
+            <item>Added article-ready JPG image generation from JPG, PNG and WEBP uploads</item>
+            <item>Added per-image output size selection: 1200 × 800 and 1620 × 1080</item>
+            <item>Added crop position and zoom controls</item>
+            <item>Added Auto Preview without full page refresh</item>
+            <item>Added optional logo overlay support</item>
+            <item>Added optional center watermark overlay support</item>
+            <item>Added direct image download</item>
+            <item>Added save-to-server workflow under /images/YYYY/MM/</item>
+            <item>Added automatic year/month folder creation</item>
+            <item>Added Joomla Options for JPG quality, save folder, default prefix and max source size</item>
+            <item>Added Joomla ACL permissions support</item>
+            <item>Added temporary preview cleanup system</item>
+            <item>Added Joomla Update Server support</item>
+        </addition>
+
+        <change>
+            <item>Output size is selected per image to avoid accidental global size changes</item>
+            <item>Default JPG compression optimized for lightweight article images</item>
+            <item>Generated files use Latin-only filename prefixes for safer server compatibility</item>
+        </change>
+
+        <security>
+            <item>Restricted uploads to JPG, JPEG, PNG and WEBP image files</item>
+            <item>Added max source megapixels setting to protect server memory</item>
+            <item>Added ACL and CSRF protection for administrator actions</item>
+        </security>
+
+        <note>
+            <item>Initial public release for Joomla 6 news and editorial websites</item>
+            <item>Always test on a staging environment before using in production</item>
+        </note>
+    </changelog>
+
+</changelogs>
