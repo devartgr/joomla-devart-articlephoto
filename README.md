@@ -37,19 +37,19 @@ DevArt Article Photo helps editors quickly prepare clean, lightweight and proper
 
 ### Dashboard
 
-![Dashboard](docs/devartarticlephoto_dashboard.jpg)
+![Dashboard](assets/screenshots/devartarticlephoto_dashboard.jpg)
 
 ### New Photo
 
-![New Photo](docs/devartarticlephoto_newphoto.jpg)
+![New Photo](assets/screenshots/devartarticlephoto_newphoto.jpg)
 
 ### Joomla Options
 
-![Options](docs/devartarticlephoto_options.jpg)
+![Options](assets/screenshots/devartarticlephoto_options.jpg)
 
 ### Settings
 
-![Settings](docs/devartarticlephoto_settings.jpg)
+![Settings](assets/screenshots/devartarticlephoto_settings.jpg)
 
 ---
 
