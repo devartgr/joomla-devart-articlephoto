@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Release](https://img.shields.io/badge/Version-1.0.1-orange)
+![Release](https://img.shields.io/badge/Version-1.0.2-orange)
 
 Lightweight Joomla 6 component for generating optimized article-ready images for news and editorial websites.
 
@@ -30,12 +30,15 @@ DevArt Article Photo helps editors quickly prepare clean, lightweight and proper
 ✅ Save directly to `/images/YYYY/MM/`  
 ✅ Automatic year/month folder creation  
 ✅ Optimized JPG compression for smaller file sizes  
-✅ Latin-only filename prefix validation  
+✅ Live filename prefix sanitization  
+✅ Automatic lowercase filename conversion  
+✅ Automatic space-to-hyphen conversion  
 ✅ Responsive Joomla administrator interface  
 ✅ Joomla ACL permissions support  
 ✅ Temporary preview cleanup system  
 ✅ GitHub / Joomla Update Server support  
-✅ Lightweight workflow designed for newsroom usage
+✅ Lightweight workflow designed for newsroom usage  
+✅ PHP 8.4 compatible  
 
 ---
 
@@ -129,6 +132,7 @@ Folders are created automatically if they do not already exist.
 - Default JPG compression is optimized for lightweight article images
 - Recommended for editorial workflows that require fast image preparation
 - Auto Preview uses AJAX without full-page refresh
+- Filename prefixes are automatically sanitized for filesystem compatibility
 - Temporary preview images are cleaned automatically
 - Always test on a staging environment before production use
 
@@ -162,3 +166,7 @@ Always test on a staging environment before using in production.
 
 **Stathopoulos Kostas – DevArt**  
 https://devart.gr
+
+GitHub Repository:
+
+https://github.com/devartgr/joomla-devart-articlephoto
