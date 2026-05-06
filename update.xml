@@ -1,1 +1,24 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>DevArt Article Photo</name>
+        <description>Lightweight Joomla 6 component for generating optimized article-ready images.</description>
+        <element>com_devartarticlephoto</element>
+        <type>component</type>
+        <version>1.0.0</version>
+        <infourl title="DevArt Article Photo">https://github.com/devartgr/joomla-devart-articlephoto</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">
+                https://github.com/devartgr/joomla-devart-articlephoto/releases/download/v1.0.0/com_devartarticlephoto_v1.0.0.zip
+            </downloadurl>
+        </downloads>
+        <maintainer>Stathopoulos Kostas - DevArt</maintainer>
+        <maintainerurl>https://devart.gr</maintainerurl>
+        <targetplatform name="joomla" version="6"/>
+        <php_minimum>8.2</php_minimum>
+        <license>GNU General Public License version 3 or later</license>
+        <changelogurl>
+            https://raw.githubusercontent.com/devartgr/joomla-devart-articlephoto/main/changelog.xml
+        </changelogurl>
+    </update>
+</updates>
