@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
     <element name="DevArt Article Photo" type="component" client="administrator">
-        
+        <license>GNU General Public License version 3 or later</license>
+
+        <version number="1.0.1" date="2026-05-06">
+            <note><![CDATA[
+                <h3>Stability and Usability Update</h3>
+                <ul>
+                    <li>Fixed Auto Preview not triggering correctly after selecting an image</li>
+                    <li>Fixed Generate Preview causing a full page refresh and clearing the selected file input</li>
+                    <li>Fixed filename prefix validation JavaScript error</li>
+                    <li>Improved AJAX preview workflow</li>
+                    <li>Improved preview regeneration behavior</li>
+                    <li>Improved Joomla 6 administrator usability</li>
+                </ul>
+            ]]></note>
+        </version>
+
         <version number="1.0.0" date="2026-05-06">
             <note><![CDATA[
                 <h3>Initial Public Release</h3>
-
                 <ul>
                     <li>Generate article-ready JPG images from JPG, PNG and WEBP uploads</li>
                     <li>Per-image output size selection (1200×800 and 1620×1080)</li>
@@ -19,10 +33,8 @@
                     <li>Joomla ACL permissions support</li>
                     <li>Temporary preview cleanup system</li>
                     <li>Joomla Update Server support</li>
-                    <li>GPL compatible release</li>
                 </ul>
             ]]></note>
         </version>
-
     </element>
 </changelog>
