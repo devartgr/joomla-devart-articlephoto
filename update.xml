@@ -14,6 +14,8 @@
             <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-articlephoto/releases/download/v1.0.2/com_devartarticlephoto_v1.0.2.zip</downloadurl>
         </downloads>
 
+        <sha256>bf4727cc49209c827f46635152b86f71d2b05f29459880946e8ae59f70020f5d</sha256>
+
         <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-articlephoto/main/changelog.xml</changelogurl>
 
         <targetplatform name="joomla" version="6.*" />
