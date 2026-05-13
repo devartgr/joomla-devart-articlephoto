@@ -4,6 +4,34 @@
     <changelog>
         <element>com_devartarticlephoto</element>
         <type>component</type>
+        <version>1.0.3</version>
+
+        <fix>
+            <item>Added missing GPL license headers to PHP files required for Joomla Extensions Directory compliance</item>
+            <item>Fixed JED review compliance issues related to PHP file licensing notices</item>
+        </fix>
+
+        <security>
+            <item>Added enhanced MIME type validation using finfo_file() when available</item>
+            <item>Added dual upload validation using image inspection and MIME verification</item>
+            <item>Improved upload validation hardening for safer image processing workflows</item>
+        </security>
+
+        <change>
+            <item>Improved Joomla Extensions Directory submission readiness</item>
+            <item>Improved production hardening for administrator image upload workflows</item>
+            <item>Improved PHP 8.4 compatibility and validation consistency</item>
+        </change>
+
+        <note>
+            <item>This is a security, compliance and production hardening update</item>
+            <item>Recommended update for all users of version 1.0.0, 1.0.1 and 1.0.2</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>com_devartarticlephoto</element>
+        <type>component</type>
         <version>1.0.2</version>
 
         <addition>
